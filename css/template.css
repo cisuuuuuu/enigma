@@ -1,0 +1,318 @@
+article, aside, details, dialog, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+audio, canvas, embed, keygen, meter, progress, video {
+	display: inline-block;
+}
+
+[hidden] {
+	display: none;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+
+
+body {
+    color: #333;
+    font-family: "Segoe ui", "Source Sans Pro", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 0.95em;
+    line-height: 1.42857;
+	margin:0;
+	min-width:320px;
+	background:#eaedf2;
+}
+
+ul{
+	margin:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-weight:100;
+	font-family: "Segoe ui","Source Sans Pro";
+	color:#73a3b7;
+}
+
+h3{
+	font-size:18px;
+}
+
+div.layer{
+	float: left;
+	width: 100%;
+}
+
+div.center{
+	margin-left:auto;
+	margin-right:auto;
+	width: 950px;
+}
+
+.bg1{
+	background:url("../img/top_bg.png") repeat-x top center;
+	/*border-bottom:3px solid #000cff;*/
+}
+
+.baner{
+	float:left;
+	width:100%;
+}
+
+.head h1{
+	float:right;
+	text-transform:uppercase;
+	color:#73a3b7;
+	font-size:22px;
+	margin-top:35px;
+}
+
+.info-offer{
+	float:left;
+	width:100%;
+	margin:50px 0 0px 0;
+	
+}
+
+.wrapper{
+	float:left;
+	width:96%;
+	background:#fff;
+	padding:2%;
+	margin-bottom:20px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.menu{
+	float:left;
+	list-style-type:none;
+	margin:20px 0 20px;
+	width:100%;
+}
+
+.menu li{
+	float:left;
+	width:24.25%;
+	margin:0 1% 0 0;
+}
+.menu li:last-child {
+	margin-right:0;
+	
+}
+.menu li a{
+	float:left;
+	padding:15px 5%;
+	color:#3978a7;
+	text-decoration:none;
+/*	border-right:1px solid #fff;*/
+	text-transform:uppercase;
+	font-weight: 600;
+	background:#fff;
+	margin-right:10px;
+	width:90%;
+	text-align:center;
+}
+.menu li:last-child a{
+	border-right:none;
+	margin-right:0;
+	
+}
+
+.menu li a:hover, .hover{
+	text-decoration:underline;
+	background:#4d88aa !important;
+	color:#fff !important;
+	text-decoration:none;
+}
+
+.content{
+	float:left;
+	width:96%;
+	padding:2%;
+}
+
+.left{
+	float:left;
+	width:56%;
+	padding:2%;
+}
+
+.right{
+	float:left;
+	width:36%;
+	padding:2%;
+}
+
+div.offer{
+	float:left;
+	width:100%;
+}
+
+ul.offer{
+	float:left;
+	width:100%;
+	list-style-image:url("../img/arrow.png");
+	margin:20px 0 0 30px;;
+}
+
+
+ul.offer li{
+	float:left;
+	width:46%;
+	margin-right:4%;
+	/*background:url("../img/arrow.png") no-repeat top left;*/
+}
+
+
+.more{
+	float:left;
+	text-align:center;
+	background:#1E70D3;
+	padding:8px 15px;
+	color:#fff;
+	text-decoration:none;
+	margin:40px 0 0 370px;
+}
+.more:hover{
+	background:#0009b3;
+}
+
+.two  {
+	margin:0 0 45px 0 !important;
+}
+
+.two li {
+	width:96% !important;
+}
+
+
+.contact .c-form {
+  float: left;
+  width: 48%;
+  margin-right:2%;
+}
+
+.contact .input-group {
+  float: left;
+  margin-right: 5%;
+  width: 100%;
+}
+
+.contact .input-group input {
+  border: 1px solid #e7e7e7;
+  float: left;
+  height: 25px;
+  margin-bottom: 5px;
+  padding: 0 0 0 2%;
+  width: 98%;
+}
+
+.contact .textarea-group {
+  float: left;
+  width: 100%;
+}
+
+.contact .textarea-group textarea {
+  border: 1px solid #e7e7e7;
+  float: left;
+  resize: none;
+  width: 98%;
+}
+
+.btn-send {
+  background: none repeat scroll 0 0 #1e70d3;
+  border: medium none;
+  color: #fff;
+  float: right;
+  margin: 10px 6px 0 0;
+  padding: 5px 10px;
+  cursor:pointer;
+}
+
+.btn-send:hover {
+  background: none repeat scroll 0 0 #0009b3;
+}
+
+.mail{
+	color:#44a1f1;
+}
+
+.m2{
+	margin-left:46px;
+}
+
+.mapa{
+	margin-top:30px;
+}
+
+.adres{
+	margin-left:20px;
+	display:inline-block;
+}
+
+
+.footer{
+	float:left;
+	width:100%;
+	border-top:2px solid #1e70d3;
+	margin:10px 0 0px 0;
+}
+
+
+.footer ul{
+	float:left;
+	list-style-type:none;
+	margin-top:20px;
+}
+
+.footer ul li{
+	float:left;
+}
+.footer ul li a{
+	float:left;
+	padding:2px 10px;
+	color:#979797;
+	text-decoration:none;
+	font-size:14px;
+	text-transform:capitalize;
+	font-weight: 400;
+	font-size:14px;
+}
+
+.footer li a:hover{
+	text-decoration:underline;
+	
+}
+
+.footer p{
+	float:right;
+	color:#979797;
+	font-size:12px;
+	margin-top:23px;
+}
+
+
+
+input.error{
+	border:1px solid red !important;
+}
+
+textarea.error{
+	border:1px solid red !important;
+}
+
+span.error{
+	display:none !important;
+}
+
+
+
+
+
+
+
+
+
